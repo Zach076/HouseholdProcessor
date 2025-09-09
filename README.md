@@ -1,18 +1,22 @@
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Welcome to the HouseholdProcessor repo!
 
-## Folder Structure
+You should find the latest stable release on the github page at https://github.com/Zach076/HouseholdProcessor/releases/tag/Executable
+Where there are directions on how to run the executable.
 
-The workspace contains two folders by default, where:
+## Overview
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+This repo maintains an executable which takes input of peoples names, addresses, and ages. 
+The program will display each household address and number of residents before displaying the residents' names, addresses, and ages if they are over the age of 18.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Input
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+This program will accept arguments of paths to files containing data in the following format:
 
-## Dependency Management
+"firstName","lastName","streetAddress","city","state","age"
+"firstName","lastName","streetAddress","city","state","age"
+"firstName","lastName","streetAddress","city","state","age"
+...
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Where the age must be written numerically.
