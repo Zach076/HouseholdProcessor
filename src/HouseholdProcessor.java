@@ -25,7 +25,7 @@ public class HouseholdProcessor {
             List<Person> residents = households.get(key);
             System.out.println("Household of " + Integer.toString(residents.size()) + " at " + key + ": ");
             for (Person p: residents) {
-                if (p.age >= 13) {
+                if (p.age >= 18) {
                     p.printDetails();
                 }
             }
